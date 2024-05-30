@@ -1,4 +1,5 @@
 from github import pesquisar_github
+from pesquisar import pesquisar_my_repositorio
 import pyautogui
 from time import sleep
 
@@ -16,6 +17,7 @@ def abrir_google_chrome():
 def main ():
     abrir_google_chrome()
     pesquisar_github()
+    pesquisar_my_repositorio()
 
 if __name__ == "__main__":
     main()
