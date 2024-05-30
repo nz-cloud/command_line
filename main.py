@@ -1,9 +1,10 @@
 from github import pesquisar_github
 from pesquisar import pesquisar_my_repositorio
+from acessando_repository import acessando_repository
 import pyautogui
 from time import sleep
 
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 0.7
 
 def abrir_google_chrome():
     try:
@@ -18,6 +19,7 @@ def main ():
     abrir_google_chrome()
     pesquisar_github()
     pesquisar_my_repositorio()
+    acessando_repository()
 
 if __name__ == "__main__":
     main()

@@ -9,3 +9,4 @@ def pesquisar_my_repositorio():
     pyautogui.press("enter")
     pyautogui.write("command_line")
     pyautogui.press("enter")
+    sleep(3)
